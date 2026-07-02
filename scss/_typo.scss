@@ -1,0 +1,89 @@
+// typo 
+.title{
+  font-size: 4rem;
+  font-weight: 600;
+  // @include textShadow();  
+  // color: #fff;
+}
+.title2{
+  // font-size: 6.4em;
+  font-size: 4rem;
+  font-weight: 600;
+  //@include textShadow();  
+  // color: #fff;
+}
+
+.text{
+  &__bs{
+    font-size: 1.4rem;
+  }
+  &__xs{
+    font-size: 1.6rem;
+  }
+  &__s{
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+  &__m{
+    font-size: 2.1rem;
+  }
+  &__l{
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+}
+
+
+.bold{
+  font-weight: 600;
+}
+
+.title2{  
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: textGradient;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out; //ease-in-out;
+  animation-fill-mode: forwards; // 마지막상태
+  // animation-delay: 2s;
+  // animation-iteration-count: infinite;
+}
+
+@keyframes textGradient{
+  @for $m from 1 through 50{
+    #{$m*2%}{
+      // background-image: linear-gradient(#{$m}deg, #56cbe5, #101010);
+      background-image: linear-gradient(to bottom, #fff #{$m + '%'}, #101010);
+      // background-position: 1px #{$m}px; #{$m}deg
+    }
+  }
+  // 0% {
+  //   background-image: linear-gradient(-4deg, black, #fff);
+  // }
+  // 100% {
+  //   background-image: linear-gradient(6deg, black, #fff);
+  // }
+}
+
+.color{
+  &__white{
+    color: #fff;
+  }
+  &__gray{
+    color: #86868b;
+  }
+  &__black{
+    color: #101010;
+  }
+}
+
+.makgeolli{
+  font-family: 'Makgeolli';
+}
+
+// $titleSize : 64px;
+// $subSize : 56px; 
+// // 서브 텍스트 color: #86868b;
+
+
+// @extend .btn;

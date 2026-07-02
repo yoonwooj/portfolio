@@ -1,0 +1,21 @@
+@charset 'utf-8';
+// print 
+
+@media print {
+  .myBtns,
+  .btn__print{
+    display: none;
+  }
+  .popup__slide{
+    display: none;
+    &.active{
+      display: block;
+    }    
+  }
+  .popup__wrap {
+    transform: translateX(0);
+  }
+  .popup__controll{
+    display: none;
+  }
+}

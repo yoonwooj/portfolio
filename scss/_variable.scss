@@ -1,0 +1,55 @@
+
+
+
+
+
+$iconPath: "../images/icon/";
+$bgPath: "../images/";
+
+// each
+// $bgColor:
+//   "a" #000, 
+//   "b" #ff2e2e,
+//   "c" #ffc800,
+//   "d" #02ad26,
+//   "e" #00a0f4,
+//   "f" #2f52eb,
+//   "g" #7c35ff,
+//   "h" #dd29fe,
+//   "i" #dd29fe,
+//   "j" #b87c26,
+//   "k" #814d2e,
+//   "l" #fff,
+//   "m" #999;
+
+// @each $name, $colors in $bgColor{
+//   .btn__color--#{$name} {
+//     background:$colors;
+//   }
+// }
+
+// btn__eraser 
+// $size:
+//   "small" 3px 3px,
+//   "mid" 10px 10px,
+//   "large" 18px 18px,
+//   "xlarge" 22px 22px
+// ;
+
+// @each $name, $width, $height in $size{
+//   .btn__pendp--#{$name} {
+//     &:after{
+//       width: $width;
+//       height: $height;
+//     }    
+//   }
+// }
+
+// @each $icons in (sticker_01, sticker_02, sticker_03, sticker_04, sticker_05){
+//   .subMenu__list.#{$icons}{
+//     // .btn.#{$icons} 이렇게도 가능
+//     .btn{
+//       background:url('#{$bgPath}icon/' + $icons + '.png') 0 0 / 100% no-repeat;
+//     }          
+//   }
+// }

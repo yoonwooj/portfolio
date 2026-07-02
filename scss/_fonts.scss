@@ -1,0 +1,121 @@
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("../fonts/SFProKRDisplay_regular.woff2");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("../fonts/sf-pro-display_medium.woff2");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("../fonts/SFProKRDisplay_semibold.woff2");
+}
+
+@font-face
+{
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/NanumGothicLight.woff2') format('woff2');
+}
+@font-face
+{
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/NanumGothic.woff2') format('woff2');
+}
+@font-face
+{
+	font-family: 'Nanum Gothic';    
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/NanumGothicBold.woff2') format('woff2');
+}
+@font-face
+{
+	font-family: 'Nanum Gothic';    
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/NanumGothicExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Makgeolli';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/Makgeolli.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// @font-face {
+//   font-family: "NanumSquare";
+//   font-style: normal;
+//   font-weight: 100;
+//   src: local("NanumSquareNeo-aLt"), 
+//   url("../fonts/NanumSquareNeo-aLt.eot"), 
+//   url("../fonts/NanumSquareNeo-aLt.eot?#iefix") format("embedded-opentype"), 
+//   url("../fonts/NanumSquareNeo-aLt.woff2") format("woff2"), 
+//   url("../fonts/NanumSquareNeo-aLt.woff") format("woff"), 
+//   url("../fonts/NanumSquareNeo-aLt.ttf") format("truetype");  /* Safari, Android, iOS */
+// }
+
+// @font-face {
+//   font-family: "NanumSquare";
+//   font-style: normal;
+//   font-weight: 200;
+//   src: local("NanumSquareNeo-bRg"), 
+//   url("../fonts/NanumSquareNeo-bRg.eot"), 
+//   url("../fonts/NanumSquareNeo-bRg.eot?#iefix") format("embedded-opentype"), 
+//   url("../fonts/NanumSquareNeo-bRg.woff2") format("woff2"), 
+//   url("../fonts/NanumSquareNeo-bRg.woff") format("woff"), 
+//   url("../fonts/NanumSquareNeo-bRg.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "NanumSquare";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local("NanumSquareNeo-cBd"), 
+//   url("../fonts/NanumSquareNeo-cBd.eot"), 
+//   url("../fonts/NanumSquareNeo-cBd.eot?#iefix") format("embedded-opentype"), 
+//   url("../fonts/NanumSquareNeo-cBd.woff2") format("woff2"), 
+//   url("../fonts/NanumSquareNeo-cBd.woff") format("woff"), 
+//   url("../fonts/NanumSquareNeo-cBd.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "NanumSquare";
+//   font-style: normal;
+//   font-weight: 600;
+//   src: local("NanumSquareNeo-dEb"), 
+//   url("../fonts/NanumSquareNeo-dEb.eot"), 
+//   url("../fonts/NanumSquareNeo-dEb.eot?#iefix") format("embedded-opentype"), 
+//   url("../fonts/NanumSquareNeo-dEb.woff2") format("woff2"), 
+//   url("../fonts/NanumSquareNeo-dEb.woff") format("woff"), 
+//   url("../fonts/NanumSquareNeo-dEb.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "NanumSquare";
+//   font-style: normal;
+//   font-weight: 800;
+//   src: local("NanumSquareNeo-eHv"), 
+//   url("../fonts/NanumSquareNeo-eHv.eot"), 
+//   url("../fonts/NanumSquareNeo-eHv.eot?#iefix") format("embedded-opentype"), 
+//   url("../fonts/NanumSquareNeo-eHv.woff2") format("woff2"), 
+//   url("../fonts/NanumSquareNeo-eHv.woff") format("woff"), 
+//   url("../fonts/NanumSquareNeo-eHv.ttf") format("truetype");
+// }
+
+.bold{
+  font-weight: 800;
+}
